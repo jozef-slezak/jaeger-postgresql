@@ -1,3 +1,6 @@
+cmd/jaeger-pg-store/jaeger-pg-*
+jaeger-pg-store
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

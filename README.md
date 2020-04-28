@@ -1,18 +1,8 @@
-This is the repository that contains PostgreSQL Storage gRPC plugin for Jaeger.
+This is the repository that contains PostgreSQL [Storage gRPC plugin for Jaeger](https://github.com/jaegertracing/jaeger/pull/1461).
 
 > IMPORTANT: This plugin is still under development. We are using it internally
 > already but the way we store data in PostgreSQL can change based on what do we
 > learn about the data structure!
-
-The Jaeger community made a big work supporting external gRPC plugin to manage
-integration with external backend without merge them as part of the Jaeger
-Tracer. You can see issue [#1461](https://github.com/jaegertracing/jaeger/pull/1461).
-
-The plugin uses `go/mod` to manage its dependencies.
-
-## License
-
-The PostgreSQL Storage gRPC Plugin for Jaeger is an [MIT licensed](LICENSE) open source project.
 
 ## Compile
 In order to compile the plugin from source code you can use `go build`:
@@ -36,3 +26,7 @@ This plugins create tables if they not exist:
 * span_refs
 * operations
 * services
+
+## License
+
+The PostgreSQL Storage gRPC Plugin for Jaeger is an [MIT licensed](LICENSE) open source project.

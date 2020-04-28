@@ -27,3 +27,12 @@ In order to start plugin just tell jaeger the path to a config compiled plugin (
 ```
 jaeger-all-in-one --grpc-storage-plugin.binary=./jaeger-pg-store --grpc-storage-plugin.configuration-file=./config-example.yaml
 ```
+
+## Tables
+This plugins create tables if they not exist:
+
+* spans
+* span_logs
+* span_refs
+* operations
+* services

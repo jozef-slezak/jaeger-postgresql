@@ -1,5 +1,5 @@
-cmd/jaeger-pg-store/jaeger-pg-*
-jaeger-pg-store
+# cmd/jaeger-pg-store/jaeger-pg-*
+# jaeger-pg-store
 
 # Binaries for programs and plugins
 *.exe
@@ -16,3 +16,7 @@ jaeger-pg-store
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.idea/
+.vscode/
+bin/

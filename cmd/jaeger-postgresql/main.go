@@ -11,7 +11,7 @@ import (
 
 func main() {
 	logger := hclog.New(&hclog.LoggerOptions{
-		Name:  "jaeger-s3",
+		Name:  "jaeger-postgresql",
 		Level: hclog.Warn, // Jaeger only captures >= Warn, so don't bother logging below Warn
 	})
 
